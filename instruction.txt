@@ -1,0 +1,27 @@
+##Installation
+sudo apt update
+sudo apt install git
+git --version
+
+
+mkdir projectb1
+cd projectb1
+
+git init
+git config --global user.name "Authorname"
+git config --global user.email "author email"
+
+Created my Project Files
+git add .   #To Move Staging directory
+git status
+git commit -m "Meaning full message"
+git log
+
+GITHUB
+created the repository
+created the Classic Token
+
+
+git remote add b1 repo_address
+git push b1 master
+
